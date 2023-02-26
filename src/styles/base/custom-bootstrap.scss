@@ -1,0 +1,17 @@
+@import "colors";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$theme-colors: (
+  "primary": $blue,
+  "danger": $red,
+  "yellow": $yellow,
+  "dark": $black,
+  "light": $white,
+  "warning": $orange,
+  "success": $green
+);
+
+$display-font-family: 'Roboto', sans-serif !default;
